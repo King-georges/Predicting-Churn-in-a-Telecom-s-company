@@ -55,3 +55,30 @@ In this dataset, there are 3333 unique rows and  21 independent predictive varia
 ---
 
 ## Visualizations
+![alt text](<Images/Distribution of day calls.png>)
+
+
+![alt text](<Images/Distribution of evening calls.png>)
+
+
+![alt text](<Images/Distribution of night calls.png>)
+
+
+![alt text](<Images/Distribution of international calls.png>)
+
+
+![alt text](<Images/Customer churn rate.png>)
+
+
+![alt text](<Images/Customer service calls Distribution by Churn Status.png>)
+
+
+![alt text](<Images/Total day minutes vs. Total day charges by Churn Status.png>)
+
+
+![alt text](<Images/Total international minutes vs. Total international charges by Churn Status.png>)
+
+
+![alt text](<Images/Total night minutes vs. Total night charges by Churn Status.png>)
+
+![alt text](Images/Histogram.png)
