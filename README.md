@@ -9,10 +9,10 @@ The objective of this project is to develop a robust classifier capable of predi
 
 
 ## Business problem
-The primary business challenge facing SyriaTel, a telecommunications company, is the need to minimize customer churn to maintain sustainable growth and profitability. High rates of customer churn can adversely affect revenue streams and erode market competitiveness. To address this challenge, SyriaTel must implement proactive strategies to identify customers at risk of discontinuing their services and effectively engage them with targeted retention initiatives. By leveraging advanced analytics and predictive modeling techniques, the company can develop a comprehensive understanding of customer behavior patterns and preferences, enabling them to tailor retention efforts and maximize customer satisfaction. 
+The primary business challenge facing SyriaTel, a leading telecommunications company, lies in minimizing customer churn to ensure sustained growth and profitability. Elevated rates of customer churn pose a significant threat to revenue streams and market competitiveness. To tackle this challenge effectively, SyriaTel aims to implement proactive strategies aimed at identifying customers likely to discontinue their services and engaging them through tailored retention initiatives. By harnessing advanced analytics and predictive modeling techniques, the company seeks to develop a delicate understanding of customer behavior patterns and preferences. This understanding will empower SyriaTel to personalize retention efforts, thereby maximizing customer satisfaction and loyalty.
 
-Therefore, the goal of the project is to develop and deploy a robust classifier capable of accurately predicting customer churn for SyriaTel, enabling the company to proactively identify customers at risk of discontinuing their services. This classifier will assist SyriaTel in implementing targeted retention strategies to minimize churn, thereby maximizing customer retention, optimizing revenue streams, and ensuring sustainable business growth. Through a strategic focus on customer retention, SyriaTel can foster long-term relationships with its clientele, enhance brand loyalty, and ultimately drive business success in a competitive marketplace.
-
+The objective of this project is therefore to design and deploy a robust classifier capable of accurately predicting customer churn for SyriaTel. By doing so, the company will be equipped to proactively identify customers at risk of churn and implement targeted retention strategies. These strategies will aim to minimize churn, optimize revenue streams, and foster sustainable business growth. By prioritizing customer retention, SyriaTel endeavors to cultivate enduring relationships with its clientele, fortify brand loyalty, and achieve enduring success in a competitive marketplace.
+ 
 ---
 
 ## Data Understanding
@@ -56,6 +56,7 @@ In this dataset, there are 3333 unique rows and  21 independent predictive varia
 
 ## Visualizations
 ![alt text](<Images/Distribution of day calls.png>)
+The distribution of day calls is left-skewed because it’s longer on the left side of its peak. The long tail on its left represents the small proportion of total day calls. It is therefore negatively skewed.
 
 
 ![alt text](<Images/Distribution of evening calls.png>)
