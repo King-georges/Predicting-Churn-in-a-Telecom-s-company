@@ -160,7 +160,11 @@ The Random Forest model performed the best on the  dataset, achieving the highes
 ## Comparison with the baseline logistic regression model
 
 **Baseline Accuracy:** 0.8635,  **Random Forest Tuned Accuracy:** 0.9535
+
 **Baseline Precision:** 0.9729, **Random Forest Tuned Precision:** 0.9375
+
 **Baseline Recall:** 0.8803, **Random Forest Tuned Recall:** 0.7426
+
 **Baseline F1-score:** 0.9243, **Random Forest Tuned F1-score:** 0.8287
+
 
