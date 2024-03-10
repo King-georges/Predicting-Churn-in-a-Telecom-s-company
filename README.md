@@ -112,10 +112,14 @@ Instantiate the basline model using logistic regression and the following were t
 
 ## Baseline model classification metrics
 
-Baseline Accuracy: 0.8635,  
-Baseline Precision: 0.9729, 
-Baseline Recall: 0.8803, 
-Baseline F1-score: 0.9243
+Baseline Accuracy:** 0.8635
+
+**Baseline Precision:** 0.9729
+
+**Baseline Recall:** 0.8803
+
+**Baseline F1-score:** 0.9243
+
 
 
 **Baseline Accuracy:** Accuracy is a measure of the overall correctness of the model's predictions. It calculates the ratio of correct predictions (both true positives and true negatives) to the total number of predictions. In this context, the baseline accuracy of 0.8635 means that the baseline model correctly predicts approximately 86.35% of the cases in the dataset.
@@ -125,3 +129,38 @@ Baseline F1-score: 0.9243
 **Baseline Recall:** Recall, also known as sensitivity, measures the proportion of true positive predictions among all actual positive instances in the dataset. It is calculated as the ratio of true positives to the sum of true positives and false negatives. The baseline recall of 0.8803 means that the baseline model identifies approximately 88.03% of the actual churn cases correctly.
 
 **Baseline F1-score:** F1-score is the harmonic mean of precision and recall. It provides a balanced measure of a model's performance, especially when dealing with imbalanced datasets. The baseline F1-score of 0.9243 indicates the overall effectiveness of the baseline model in correctly identifying positive cases while minimizing false positives and false negatives.
+
+
+## Training and Evaluating other classification Models
+
+**K-Nearest Neighbors:** 0.9130434782608695
+
+**Support Vector Machines:** 0.9355322338830585
+
+**Decision Trees:** 0.9355322338830585
+
+**Random Forests:** 0.9475262368815592
+
+The Random Forest model performed the best on the  dataset, achieving the highest accuracy on the testing set. This suggests that the Random Forest model was able to learn the patterns in the training data and generalize well to unseen data in the testing set.  **Random Forest:** Achieved an accuracy of 0.9475, indicating it correctly classified nearly 95% of the instances in the testing set.  **Logistic Regression:** Achieved an accuracy of 0.8561, which is considerably lower than the Random Forest model. Therefore, there is need of applying hyperparameter tuning to improve it's accuracy on prediction.
+
+
+## Random forest tuned Model  evaluation
+
+![alt text](<Images/Confusion matrix for tuned random forest.png>)
+
+**Accuracy:** 0.9505
+
+**Precision:** 0.9359
+
+**Recall:** 0.7228
+
+**F1-score:** 0.8156
+
+
+## Comparison with the baseline logistic regression model
+
+**Baseline Accuracy:** 0.8635,  **Random Forest Tuned Accuracy:** 0.9535
+**Baseline Precision:** 0.9729, **Random Forest Tuned Precision:** 0.9375
+**Baseline Recall:** 0.8803, **Random Forest Tuned Recall:** 0.7426
+**Baseline F1-score:** 0.9243, **Random Forest Tuned F1-score:** 0.8287
+
