@@ -102,3 +102,26 @@ Overall, the scatter plot suggests that there may be a relationship between tota
 Overall, the scatter plot suggests that there may be a relationship between total night minutes, total night charges, and churn status. Customers who talk for a longer total time at night and who have a higher total charge for their calls may be more likely to churn.
 
 
+# Modelling
+
+## Baseline model using Logistic regression
+
+Instantiate the basline model using logistic regression and the following were the results:
+
+![alt text](<Images/confusion matrix for baseline model.png>)
+
+## Baseline model classification metrics
+
+Baseline Accuracy: 0.8635,  
+Baseline Precision: 0.9729, 
+Baseline Recall: 0.8803, 
+Baseline F1-score: 0.9243
+
+
+**Baseline Accuracy:** Accuracy is a measure of the overall correctness of the model's predictions. It calculates the ratio of correct predictions (both true positives and true negatives) to the total number of predictions. In this context, the baseline accuracy of 0.8635 means that the baseline model correctly predicts approximately 86.35% of the cases in the dataset.
+
+**Baseline Precision:** Precision measures the proportion of true positive predictions among all positive predictions made by the model. It is calculated as the ratio of true positives to the sum of true positives and false positives. In this case, the baseline precision of 0.9729 indicates that when the baseline model predicts a customer will churn, it is correct about 97.29% of the time.
+
+**Baseline Recall:** Recall, also known as sensitivity, measures the proportion of true positive predictions among all actual positive instances in the dataset. It is calculated as the ratio of true positives to the sum of true positives and false negatives. The baseline recall of 0.8803 means that the baseline model identifies approximately 88.03% of the actual churn cases correctly.
+
+**Baseline F1-score:** F1-score is the harmonic mean of precision and recall. It provides a balanced measure of a model's performance, especially when dealing with imbalanced datasets. The baseline F1-score of 0.9243 indicates the overall effectiveness of the baseline model in correctly identifying positive cases while minimizing false positives and false negatives.
