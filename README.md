@@ -56,30 +56,49 @@ In this dataset, there are 3333 unique rows and  21 independent predictive varia
 
 ## Visualizations
 ![alt text](<Images/Distribution of day calls.png>)
+
 The distribution of day calls is left-skewed because it’s longer on the left side of its peak. The long tail on its left represents the small proportion of total day calls. It is therefore negatively skewed.
 
 
 ![alt text](<Images/Distribution of evening calls.png>)
 
+The distribution of evening calls is also left-skewed because it’s longer on the left side of its peak. The long tail on its left represents the small proportion of total day calls. It is therefore negatively skewed.
+
 
 ![alt text](<Images/Distribution of night calls.png>)
+
+The distribution of night calls is approximately symmetrical, with the observations distributed similarly on the left and right sides of its peak. Therefore, the distribution has approximately zero skew
 
 
 ![alt text](<Images/Distribution of international calls.png>)
 
+The distribution of international calls is right-skewed because it’s longer on the right side of its peak. The long tail on its right represents the small proportion of total international calls. It is therefore positively skewed.
+
 
 ![alt text](<Images/Customer churn rate.png>)
+
+The current customer churn rate for SyriaTel is at 14.5%
 
 
 ![alt text](<Images/Customer service calls Distribution by Churn Status.png>)
 
+The box for churned customers is slightly higher than the box for non-churned customers, which means that churned customers tend to make more customer service calls than non-churned customers. The median for churned customers is also higher than the median for non-churned customers. There are also more outliers for churned customers than non-churned customers, which means that there are a few churned customers who made a very high number of customer service calls. Overall, the box plot suggests that there is a positive relationship between the number of customer service calls a customer makes and their churn status. Customers who make more customer service calls are more likely to churn.
+
 
 ![alt text](<Images/Total day minutes vs. Total day charges by Churn Status.png>)
+
+The scatter plot shows that, for both churned and non-churned customers, as the total number of minutes spent on calls increases, the total cost of those calls also increases. This is because customers are typically charged per minute for their calls.
+
+However, the slope of the line is steeper for churned customers than for non-churned customers. This suggests that churned customers tend to have a higher total charge per minute than non-churned customers. In other words, churned customers may be on plans with higher rates, or they may simply make more expensive calls (e.g., international calls).
 
 
 ![alt text](<Images/Total international minutes vs. Total international charges by Churn Status.png>)
 
+Overall, the scatter plot suggests that there may be a relationship between total international minutes, total international charges, and churn status. Customers who spend more minutes on international calls and who have a higher total charge for those calls may be more likely to churn, especially if they are on plans with high international calling rates.
+
 
 ![alt text](<Images/Total night minutes vs. Total night charges by Churn Status.png>)
 
-![alt text](Images/Histogram.png)
+Overall, the scatter plot suggests that there may be a relationship between total night minutes, total night charges, and churn status. Customers who talk for a longer total time at night and who have a higher total charge for their calls may be more likely to churn.
+
+
