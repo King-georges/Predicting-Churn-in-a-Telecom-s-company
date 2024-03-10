@@ -1,7 +1,7 @@
 #  SyriaTel Customer Churn
 ### Author: George Opondi
 ---
-
+Link to the non-technical presentation: https://www.canva.com/design/DAF_C8oNtg8/PPYwhsrySGvk458sCdXbFw/edit?utm_content=DAF_C8oNtg8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 ## Overview
 The objective of this project is to develop a robust classifier capable of predicting customer churn for SyriaTel, a telecommunications company. Customer churn prediction entails identifying customers who are likely to discontinue their services with the company in the near future. The task is framed as a binary classification problem, where the classifier will categorize customers into two groups: those expected to churn and those likely to remain.
 
