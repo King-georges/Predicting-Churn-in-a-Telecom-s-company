@@ -168,3 +168,23 @@ The Random Forest model performed the best on the  dataset, achieving the highes
 **Baseline F1-score:** 0.9243, **Random Forest Tuned F1-score:** 0.8287
 
 
+In evaluating the performance of the predictive models, there is an observation of notable improvements with the tuned Random Forest model compared to the baseline:
+
+**Baseline Accuracy:** 86.35%
+
+**Random Forest Tuned Accuracy:** 95.35%
+
+**Baseline Precision:** 97.29%
+
+**Random Forest Tuned Precision:** 93.75%
+
+**Baseline Recall:** 88.03%
+
+**Random Forest Tuned Recall:** 74.26%
+
+Baseline F1-score:** 92.43%
+
+**Random Forest Tuned F1-score:** 82.87%
+
+These metrics demonstrate the effectiveness of the efforts in optimizing the Random Forest model. Despite the baseline model's respectable performance, the tuned Random Forest model showcases significant enhancements across all evaluation criteria. This improvement indicates the potential for the tuned Random Forest model to better predict customer churn, thereby enabling more proactive and targeted retention strategies.
+
